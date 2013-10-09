@@ -10,11 +10,8 @@ public class Person {
     @Id
     @GeneratedValue
     private Integer id;
-
     private String firstName;
-
     private String lastName;
-
 
     public Integer getId() {
         return id;
